@@ -8,7 +8,7 @@
  */
 
 // define our application directory
-define('INTRANET_DIR', 'c:/laragon/www/tuskerwazee/');
+define('INTRANET_DIR', '/opt/app-root/src/');
 // define smarty lib directory
 define('SMARTY_DIR', INTRANET_DIR . 'includes/smarty/libs/');
 // define('SMARTY_DIR', '/usr/local/lib/php/Smarty/');

@@ -1,0 +1,67 @@
+/** ************************************* **
+	@Author			Ionel David
+	@Website		www.eucap-som.eu
+	@Last Update	Friday, March 17, 2017
+
+	~ ~ ~ UPDATE REASONS ~ ~ ~
+	REWRITE RULES IN THIS CUSTOM CSS FILE!
+	~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~	
+
+ ** ************************************* **/
+ 
+
+.box-inner-right {
+	padding:0px;
+}
+
+.box-footer-right {
+	padding:8px 0px;
+}
+
+.content-center {
+	margin: 0 0 5px 0;
+}
+
+p.p-center { 
+	margin-bottom: 10px; 
+}
+
+hr.hr-center {
+    margin-top: 0px; 
+    margin-bottom: 20px;
+}
+
+
+#topNav a.logo {
+    height: 96px;
+    line-height: 96px;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #FFDD00;
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 20px;
+	/*color: #179BD7;*/
+
+	color: #FFF;
+	text-shadow:1px 1px 0 #179BD7,
+	-2px -2px 0 #179BD7,
+	2px -2px 0 #179BD7,
+	-2px 2px 0 #179BD7,
+	0px 2px 0 #179BD7,
+	2px 0px 0 #179BD7,
+	0px -2px 0 #179BD7,
+	-2px 0px 0 #179BD7,
+	1px 2px 2px #000;
+}

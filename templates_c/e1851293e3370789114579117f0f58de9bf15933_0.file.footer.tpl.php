@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-19 05:29:04
+/* Smarty version 3.1.30, created on 2018-01-18 16:10:58
   from "c:\laragon\www\tuskerwazee\templates\footer.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a1116a04d9937_35965381',
+  'unifunc' => 'content_5a60c7120d5aa7_28241179',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e1851293e3370789114579117f0f58de9bf15933' => 
     array (
       0 => 'c:\\laragon\\www\\tuskerwazee\\templates\\footer.tpl',
-      1 => 1511069340,
+      1 => 1516291501,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a1116a04d9937_35965381 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a60c7120d5aa7_28241179 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 			
 
@@ -35,8 +35,8 @@ function content_5a1116a04d9937_35965381 (Smarty_Internal_Template $_smarty_tpl)
 
 							<!-- Footer Logo -->
 							<!-- <img class="footer-logo" src="assets/images/logo-footer.png" alt="" /> -->
-							<h3>i-EUCS</h3>
-							<p>Incredibly beautiful Intranet for the mission.</p>
+							<h3>TUSKER WAZEE</h3>
+							<p><i>More than a team</i></p>
 
 							<!-- <h2>(800) 123-4567</h2> -->
 							<!-- Contact Address -->
@@ -51,7 +51,7 @@ function content_5a1116a04d9937_35965381 (Smarty_Internal_Template $_smarty_tpl)
 										Phone: 1-800-565-2390
 									</li>
 									<li class="footer-sprite email">
-										<a href="mailto:CIS@yEUCAP-SOM.EU">CIS@EUCAP-SOM.EU</a>
+										<a href="mailto:tuskerwazee@gmail.com">tuskerwazee@gmail.com</a>
 									</li>
 								</ul>
 							</address>
@@ -127,7 +127,7 @@ function content_5a1116a04d9937_35965381 (Smarty_Internal_Template $_smarty_tpl)
 							<li><a href="#">Privacy</a></li>
 						</ul>
 
-						&copy;2015-2017 All Rights Reserved, EUCAP Somalia
+						&copy;2010-2018 All Rights Reserved, TUSKER WAZEE
 					</div>
 				</div>
 

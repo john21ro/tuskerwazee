@@ -11,8 +11,8 @@
 
 							<!-- Footer Logo -->
 							<!-- <img class="footer-logo" src="assets/images/logo-footer.png" alt="" /> -->
-							<h3>i-EUCS</h3>
-							<p>Incredibly beautiful Intranet for the mission.</p>
+							<h3>TUSKER WAZEE</h3>
+							<p><i>More than a team</i></p>
 
 							<!-- <h2>(800) 123-4567</h2> -->
 							<!-- Contact Address -->
@@ -27,7 +27,7 @@
 										Phone: 1-800-565-2390
 									</li>
 									<li class="footer-sprite email">
-										<a href="mailto:CIS@yEUCAP-SOM.EU">CIS@EUCAP-SOM.EU</a>
+										<a href="mailto:tuskerwazee@gmail.com">tuskerwazee@gmail.com</a>
 									</li>
 								</ul>
 							</address>
@@ -103,7 +103,7 @@
 							<li><a href="#">Privacy</a></li>
 						</ul>
 
-						&copy;2015-2017 All Rights Reserved, EUCAP Somalia
+						&copy;2010-2018 All Rights Reserved, TUSKER WAZEE
 					</div>
 				</div>
 

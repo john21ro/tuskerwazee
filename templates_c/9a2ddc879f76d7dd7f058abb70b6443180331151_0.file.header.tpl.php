@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-19 10:09:48
+/* Smarty version 3.1.30, created on 2018-01-18 15:40:00
   from "c:\laragon\www\tuskerwazee\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a11586cb87990_29803154',
+  'unifunc' => 'content_5a60bfd0a80385_27594178',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9a2ddc879f76d7dd7f058abb70b6443180331151' => 
     array (
       0 => 'c:\\laragon\\www\\tuskerwazee\\templates\\header.tpl',
-      1 => 1511086088,
+      1 => 1516289997,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a60bfd0a80385_27594178 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <!DOCTYPE html>
@@ -43,14 +43,17 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 
 		<!-- CORE CSS -->
 		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
 		<!-- THEME CSS -->
 		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
 
 		<!-- PAGE LEVEL SCRIPTS -->
 		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/layout-shop.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/yellow.css" rel="stylesheet" type="text/css" id="color_scheme" />
 
 		<!-- CUSTOM CSS -->
@@ -126,59 +129,6 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 		<!-- wrapper -->
 		<div id="wrapper">
 
-			<!-- Top Bar -->
-			<div id="topBar" class="dark">
-				<div class="container">
-
-					<!-- right -->
-					<ul class="top-links list-inline pull-right">
-						<li class="text-welcome hidden-xs">Welcome to i-EUCS,&nbsp;<strong><?php echo $_smarty_tpl->tpl_vars['name']->value;?>
-</strong></li>
-						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><i class="fa fa-user hidden-xs"></i> MY ACCOUNT</a>
-							<ul class="dropdown-menu pull-right">								
-								<li><a tabindex="-1" href="profile.php"><i class="fa fa-user hidden-xs"></i> MY PROFILE</a></li>
-								<li class="divider"></li>
-								<li><a tabindex="-1" href="#"><i class="fa fa-history"></i> MY HISTORY</a></li>
-								<li><a tabindex="-1" href="#"><i class="fa fa-bookmark"></i> MY TASKS</a></li>
-								<li><a tabindex="-1" href="#"><i class="fa fa-edit"></i> MY REVIEWS</a></li>
-								<li><a tabindex="-1" href="settings.php"><i class="fa fa-cog"></i> MY SETTINGS</a></li>
-								<li class="divider"></li>
-								<li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-off"></i> LOGOUT</a></li>
-							</ul>
-						</li>
-						<li class="hidden-xs"><a href="login.php">LOGIN</a></li>
-						<li class="hidden-xs"><a href="register.php">REGISTER</a></li>
-					</ul>
-
-					<!-- left -->
-					<ul class="top-links list-inline">
-						<li class="hidden-xs"><a href="faq.php">FAQ</a></li>
-						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a>
-							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
-								<li class="divider"></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/de.png" width="16" height="11" alt="lang" /> GERMAN</a></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/ro.png" width="16" height="11" alt="lang" /> ROMANIAN</a></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/it.png" width="16" height="11" alt="lang" /> ITALIAN</a></li>
-							</ul>
-						</li>
-						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#">EUR</a>
-							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#">EUR</a></li>
-								<li class="divider"></li>
-								<li><a tabindex="-1" href="#">USD</a></li>
-								<li><a tabindex="-1" href="#">GBP</a></li>
-								<li><a tabindex="-1" href="#">KES</a></li>
-							</ul>
-						</li>
-					</ul>
-
-				</div>
-			</div>
-			<!-- /Top Bar -->
 
 			<!-- 
 				AVAILABLE HEADER CLASSES
@@ -206,18 +156,20 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
-			<div id="header" class="sticky clearfix dark">
+			
+
+
+				<div id="header" class="sticky clearfix">
 
 				<!-- SEARCH HEADER -->
 				<div class="search-box over-header">
 					<a id="closeSearch" href="#" class="glyphicon glyphicon-remove"></a>
 
-					<form action="search-page.php" method="get">
+					<form action="page-search-result-1.html" method="get">
 						<input type="text" class="form-control" placeholder="SEARCH" />
 					</form>
 				</div> 
 				<!-- /SEARCH HEADER -->
-
 
 				<!-- TOP NAV -->
 				<header id="topNav">
@@ -247,7 +199,7 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 									<i class="fa fa-shopping-cart"></i> 
 								</a>
 								<div class="quick-cart-box">
-									<h4>Item Requests</h4>
+									<h4>Shop Cart</h4>
 
 									<div class="quick-cart-wrapper">
 
@@ -259,7 +211,7 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 
 										<a href="#"><!-- cart item -->
 											<img src="assets/images/demo/people/300x300/5-min.jpg" width="45" height="45" alt="" />
-											<h6><span>2x</span> THIS IS A VERY LONG TEXT AND WILL BE TRUNCATED</h6>
+											<h6><span>2x</span> Kit football</h6>
 											<small>$17.18</small>
 										</a><!-- /cart item -->
 
@@ -286,10 +238,14 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 						</ul>
 						<!-- /BUTTONS -->
 
+
 						<!-- Logo -->
-						<a class="logo pull-left" href="index.php">
-							<img src="assets/images/logo_light.png" alt="" />
+						<a class="logo pull-left" href="index.html">
+							 <!-- <img src="assets/images/logo_dark.png" alt="" /> -->
+							<img src="assets/images/tusker/tusker_logo.png" alt="" /> <span class="size-30 weight-700 font-lato padding-10">TUSKER WAZEE</span>
 						</a>
+
+
 
 						<!-- 
 							Top Nav 
@@ -300,12 +256,24 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 						<div class="navbar-collapse pull-right nav-main-collapse collapse">
 							<nav class="nav-main">
 
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+
 								<ul id="topMain" class="nav nav-pills nav-main">
 									<li>
 										<a href="index.php">HOME</a>
 									</li>
 																
 								</ul>
+								
 
 							</nav>
 						</div>
@@ -313,6 +281,9 @@ function content_5a11586cb87990_29803154 (Smarty_Internal_Template $_smarty_tpl)
 					</div>
 				</header>
 				<!-- /Top Nav -->
+
+			</div>
+
 
 			</div>
 

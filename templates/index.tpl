@@ -1,5 +1,5 @@
 {* Smarty *}
-{include file="header.tpl" title={$page_title} page_author={$page_author} name={$name} type_iframe={$type_iframe} type_image={$type_image} type_ajax={$type_ajax} singleItem1={$singleItem1} singleItem2={$singleItem2}}
+{include file="header.tpl" title={$page_title} page_author={$page_author} name={$name} type_iframe={$type_iframe} type_image={$type_image} type_ajax={$type_ajax} singleItem1={$singleItem1} singleItem2={$singleItem2} singleItem3={$singleItem3}}
 
 			<!-- REVOLUTION SLIDER -->
 			<div class="slider fullwidthbanner-container roundedcorners">
@@ -269,11 +269,11 @@
 					<div class="row">
 
 						<div class="col-sm-4">
-							<a class="image-hover lightbox" href="https://vimeo.com/ondemand/buildingwithawareness/108669033" data-plugin-options='{$type_iframe}'>
+							<a class="image-hover lightbox" href="#" data-plugin-options='{$type_iframe}'>
 								<span class="image-hover-icon image-hover-dark"><!-- image-hover-light | image-hover-dark -->
 									<i class="fa fa-vimeo-square"><!-- video icon --></i>
 								</span>
-								<img class="img-responsive" src="assets/images/demo/thematics/construction/c3-min.jpg" alt="img" />
+								<img class="img-responsive" src="assets/images/tusker/galery/IMG-20171129-WA0024.jpg" alt="Team TuskerWazee" width="600" height="300" />
 							</a>
 
 							<h3 class="margin-top-10">The Team</h3>
@@ -286,7 +286,7 @@
 								<span class="image-hover-icon image-hover-dark"><!-- image-hover-light | image-hover-dark -->
 									<i class="fa fa-youtube-square"><!-- video icon --></i>
 								</span>
-								<img class="img-responsive" src="assets/images/demo/thematics/construction/c1-min.jpg" alt="img" />
+								<img class="img-responsive" src="assets/images/tusker/galery/IMG-20171205-WA0026.jpg" alt="img" />
 							</a>
 							<h3 class="margin-top-10">The Results</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
@@ -294,7 +294,7 @@
 						</div>
 
 						<div class="col-sm-4">
-							<img class="img-responsive" src="assets/images/demo/thematics/construction/c2-min.jpg" alt="img" />
+							<img class="img-responsive" src="assets/images/tusker/galery/IMG-20171218-WA0005.jpg" alt="img" />
 							<h3 class="margin-top-10">The Effective Teamwork</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque.</p>
 							<a href="#" class="btn btn-default">READ MORE</a>
@@ -621,8 +621,230 @@
 			</section>
 			<!-- /PARALLAX -->
 
-			
+						<!-- Upcoming Events -->
+			<section id="events">
+				<div class="container">
 
+					<h3>UPCOMING EVENTS /<span class="size-16 weight-400">see you soon!</span></h3>
+
+					<div class="row">
+
+						<div class="col-sm-4">
+
+							<h4><i class="glyphicon glyphicon-option-vertical"></i> Ordered By Date</h4>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">21</span>
+									<span class="event-date-month">January</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">Ruiru Stadium</a></h3>
+										<div class="event-location">Tasker Wazee vs Romania(Rucharest Sr.) </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Get Invite</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">28</span>
+									<span class="event-date-month">January</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">Nairobi</a></h3>
+										<div class="event-location">Tasker Wazee vs Romania(Rucharest Sr.) </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">More Details</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- <div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">04</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div> -->
+
+						</div>
+
+						<!-- <div class="col-sm-4">
+
+							<h4><i class="glyphicon glyphicon-option-vertical"></i> Ordered By Title</h4>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">08</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">09</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">10</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-sm-4">
+
+							<h4><i class="glyphicon glyphicon-option-vertical"></i> Order Randomly</h4>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">14</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">15</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="event-item">
+								<div class="event-date-wrapper">
+									<span class="event-date-day">16</span>
+									<span class="event-date-month">April</span>
+								</div>
+								<div class="event-content-wrapper">
+									<div class="event-content-inner-wrapper">
+										<h3 class="event-title"><a href="#">New York</a></h3>
+										<div class="event-location">Colonial Life Arena w/ Aloe Blacc </div>
+									</div>
+									<div class="event-status-wrapper">
+										<a href="#">Buy Ticket</a>
+									</div>
+								</div>
+							</div>
+
+						</div> -->
+
+					</div>
+
+
+				</div>
+			</section>
+			<!-- /Upcoming Events -->
+
+			
+			<!-- Sponsors-->
+			<section class="nopadding">
+				<div class="container">
+				
+					<!-- 
+						controlls-over		= navigation buttons over the image 
+						buttons-autohide 	= navigation buttons visible on mouse hover only
+						
+						data-plugin-options:
+							"singleItem": true
+							"autoPlay": true (or ms. eg: 4000)
+							"navigation": true
+							"pagination": true
+					-->
+					<div class="text-center margin-top-30 margin-bottom-30">
+						<div class="owl-carousel nomargin" data-plugin-options='{$singleItem3}'>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/1.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/2.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/3.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/4.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/5.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/6.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/7.jpg" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="assets/images/demo/brands/8.jpg" alt="">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
 
 			
 

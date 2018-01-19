@@ -13,6 +13,7 @@ $smarty->assign('type_image','{"type":"image"}');
 $smarty->assign('type_ajax','{"type":"ajax", "closeOnBgClick":false}');
 $smarty->assign('singleItem1','{"singleItem": true, "autoPlay": 3500, "navigation": false, "pagination": true, "transitionStyle":"fade"}');
 $smarty->assign('singleItem2','{"singleItem": false, "items":"4", "autoPlay": 4000, "navigation": true, "pagination": false}');
+$smarty->assign('singleItem3','{"singleItem": false, "autoPlay": 3000,"navigation": false,"pagination": false}');
 
 //** un-comment the following line to show the debug console
 //$smarty->debugging = true;

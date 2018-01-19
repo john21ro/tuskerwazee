@@ -7,6 +7,8 @@
 		<meta charset="utf-8" />
 		<title>{$page_title}</title>
 		<meta name="Author" content="{$page_author}" />
+		<meta name="description" content="Tusker Wazee Football Club. Old boys Football.">
+		<meta name="keywords" content="Tusker,Wazee,Nairobi,Kenya,Football,Soccer,WPL,Premier,League,oldboys">
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
@@ -84,9 +86,9 @@
 					<div class="col-md-4">
 						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
 						<ul class="list-unstyled">
-							<li><b>Address:</b> PO Box 21132, Here Weare St, <br /> Melbourne, Vivas 2355 Australia</li>
+							<li><b>Address:</b> PO Box 21132, Here Weare St, <br /> Nairobi, Vivas 2355 Kenya</li>
 							<li><b>Phone:</b> 1-800-565-2390</li>
-							<li><b>Email:</b> <a href="mailto:cis@eucap-som.eu">cis@eucap-som.eu</a></li>
+							<li><b>Email:</b> <a href="mailto:tuskerwazee@gmail.com">tuskerwazee@gmail.com</a></li>
 						</ul>
 					</div>
 
@@ -136,13 +138,12 @@
 				<div id="header" class="sticky clearfix">
 
 				<!-- SEARCH HEADER -->
-				<div class="search-box over-header">
+				<!-- <div class="search-box over-header">
 					<a id="closeSearch" href="#" class="glyphicon glyphicon-remove"></a>
-
 					<form action="page-search-result-1.html" method="get">
 						<input type="text" class="form-control" placeholder="SEARCH" />
 					</form>
-				</div> 
+				</div>  -->
 				<!-- /SEARCH HEADER -->
 
 				<!-- TOP NAV -->
@@ -158,11 +159,11 @@
 						<ul class="pull-right nav nav-pills nav-second-main">
 
 							<!-- SEARCH -->
-							<li class="search">
+							<!-- <li class="search">
 								<a href="javascript:;">
 									<i class="fa fa-search"></i>
 								</a>
-							</li>
+							</li> -->
 							<!-- /SEARCH -->
 
 
@@ -185,7 +186,7 @@
 
 										<a href="#"><!-- cart item -->
 											<img src="assets/images/demo/people/300x300/5-min.jpg" width="45" height="45" alt="" />
-											<h6><span>2x</span> Kit football</h6>
+											<h6><span>2x</span> Soccer Kit</h6>
 											<small>$17.18</small>
 										</a><!-- /cart item -->
 
@@ -245,6 +246,22 @@
 									<li>
 										<a href="index.php">HOME</a>
 									</li>
+									<li>
+										<a href="#">CLUB NEWS</a>
+									</li>
+									<li>
+										<a href="#">FIXTURES</a>
+									</li>
+									<li>
+										<a href="#">TEAM</a>
+									</li>
+									<li>
+										<a href="#">GALERY</a>
+									</li>
+									<li>
+										<a href="#">ABOUT US</a>
+									</li>
+
 																
 								</ul>
 								
